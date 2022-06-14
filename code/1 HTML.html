@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website</title>
+</head>
+<style>
+    *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+    
+    }
+    body{
+        background:url("../images/Website.jpg");
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown{
+        margin: 0 auto;
+    }
+    nav{
+        height: 60px;
+        background-color:#005b5d ;
+        box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+    }
+    .logo{
+        width: 140px;
+        display: inline;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+    nav ul{
+        padding: 0;
+        margin: 0;
+        float: right;
+        margin-right: 30px;
+    }
+    nav ul li{
+        background: #005b5b;
+        position: relative;
+        list-style: none;
+        display: inline-block;
+    }
+    nav ul li a{
+        display: flex;
+        padding: 0 15px;
+        color:#4cfabb ;
+        text-decoration: none;
+        line-height: 60px;
+        font-size: 20px;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+    }
+    nav ul li a:hover{
+        background:#013d3d;
+    }
+    nav ul ul{
+        position: absolute;
+        top: 60px;
+        display: none;
+    }
+    nav ul li:hover > ul{
+        display: block;
+    }
+    nav ul ul li{
+        width:150px;
+        float: none;
+        display: list-item;
+        position: relative;
+    }
+    .body{
+        color:#013838;
+        padding: 50px;
+        font-size: 80px;
+        margin-top: 50px;
+        text-align: center;
+        font-style: italic;
+    }
+    p{
+        font-size: 25px;
+        font-style: italic;
+        margin-left: 15px;
+    }
+    </style>
+<body>
+    <div class="dropdown"></div>
+        <nav>
+            <img src="../images/main0.png" class="logo">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Tutorial</a>
+                    <ul>
+                        <li><a href="../HTML Programs.html">HTML</a></li>
+                        <li><a href="../CSS Programs.html">CSS</a></li>
+                        <li><a href="../Java Programs.html">Java Script</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav><br>
+        <p>
+            1. HTML stands for Hyper Text Markup Language<br>
+            <br>
+2. HTML is the standard markup language for creating Web pages<br>
+<br>
+3. HTML describes the structure of a Web page<br>
+<br>
+4. HTML consists of a series of elements<br>
+<br>
+5. HTML elements tell the browser how to display the content<br>
+<br>
+6. HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.<br>
+<br>
+        </p>
+</body>
+</html>
